@@ -1,0 +1,85 @@
+
+.container-fluid{
+	background: #FFFAF0;
+	width: 65%;
+	display: flex;	
+	flex-direction: column;
+	margin-bottom: 10px;
+	padding: 40px;
+}
+
+.thumbnail{
+	background:  #FAF0E6 ;
+	
+}
+.well{
+	height: 40px;	
+	background: #FAF0E6;
+	margin-bottom: 5px;
+}
+
+h4 ,.page-header, .text-uppercase , address{
+	font-family: 'Times New Roman', serif;
+	font-size: 20px;	
+}
+h4{
+	padding: 7px;
+}
+
+.help-block{
+	margin-bottom: -5px;
+}
+
+address{
+	width: 350px;	
+}
+
+#pdf{
+	width: 50px;
+	color: #333;
+	padding: 10px;
+	
+}
+
+#lab_social_icon_footer a {
+	color: #333;
+	padding: 10px;
+  }
+  #nome{
+	font-size: 25px;
+	
+	
+	
+}
+
+@media screen and (max-width: 540px) {
+
+	#nome {
+		font-size: 20px;
+	}
+
+	h4 ,.page-header, .text-uppercase , address{
+		font-family: 'Times New Roman', serif;
+		font-size: 15px;	
+	}
+
+	.container-fluid{
+		background: #FFFAF0;
+		width: 85%;
+		display: flex;	
+		flex-direction: column;
+		margin-bottom: 10px;
+		padding: 40px;
+	}
+	#pdf{
+		width: 40px;
+		color: #333;
+		padding: 10px;
+		
+	}
+	
+	#lab_social_icon_footer a {
+		color: #333;
+		padding: 10px;
+	  }
+}
